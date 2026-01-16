@@ -7,17 +7,27 @@ This repository contains a collection of specialized "skills" for AI agents. Eac
 To use a skill, an AI agent should:
 
 Workspace skills
-```
+
+```sh
 cd <workspace-root>/.agent/
 git clone https://github.com/your-username/ai-agent-skills.git
 rm -rf skills/.git
 ```
 
 Global skills
-```
+
+```sh
 cd ~/.gemini/antigravity/
 git clone https://github.com/your-username/ai-agent-skills.git
 rm -rf skills/.git
+```
+
+Test
+
+Use on workspace agent chat
+
+```text
+Please code review the project.
 ```
 
 ## Available Skills
